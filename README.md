@@ -65,9 +65,13 @@ The API includes Swagger for interactive API documentation. You can access it at
 
 This will allow you to test the endpoints directly from the browser.
 
+See example here:
+
+![Swagger Screenshot](./CustomerAPI/Documents/Swagger_Test.jpg)
+
 ### Running Tests
 If you'd like to run the unit tests, make sure you have xUnit and Microsoft.AspNetCore.Mvc.Testing installed. Then, you can run the tests using:
 
 `dotnet test`
 
-This will run the tests defined in your RegistrationApiTests class or any other test files in your project.
+This will run the tests defined in the RegistrationApiTests class.
